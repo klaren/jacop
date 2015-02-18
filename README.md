@@ -45,3 +45,30 @@ it is easier to create your own constraint programs even in more intuitive manne
 
 Currently, our focus is on providing a simple Java API for JaCoP as well as integrate it well with industrial quality
 technologies like OSGi and Spring.
+
+Maven
+-------
+To use JaCoP with maven you can just include it as a dependency in your `pom.xml`
+
+    <dependency>
+        <groupId>org.jacop</groupId>
+        <artifactId>solver</artifactId>
+        <version>4.2.0</version>
+    </dependency>
+
+In order for maven to find JaCoP you need add the folloing repository to your `pom.xml` aswell
+
+    <repositories>
+		<repository>
+			<id>CSLTH</id>
+			<name>CS LTH maven repo</name>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+			</snapshots>
+			<url>http://maven.cs.lth.se/content/repositories/public/</url>
+		</repository>
+	</repositories>

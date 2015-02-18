@@ -100,7 +100,7 @@ public class BoxDisplay extends JFrame {
 	 * It creates a display to visualize 2D geost constraint. 
 	 *  
 	 * @param pixelsPerUnit number of pixels per unit of object length. 
-	 * @param title 
+	 * @param title The title of the window name
 	 * @param geost geost constraint to visualize
 	 */
 	public void displayState(int pixelsPerUnit, String title, Geost geost){

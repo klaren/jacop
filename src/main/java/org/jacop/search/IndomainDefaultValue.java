@@ -67,8 +67,8 @@ public class IndomainDefaultValue<T extends Var> implements Indomain<T> {
 	/**
 	 * Constructor which specifies default values to be used
 	 * if values are not in the domain a defualt indomain is used.
+	 * @param defaultValue default value used for each variable.
 	 * @param defaultIndomain default indomain heuristic used.
-	 * @param defeaultValue default value used for each variable.
 	 */
 
 	public IndomainDefaultValue(HashMap<T, Integer> defaultValue,

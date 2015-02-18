@@ -72,9 +72,9 @@ public class PltQ extends PrimitiveConstraint {
 	public static String[] xmlAttributes = {"p", "q"};
 	
 	/**
-	 * It constructs constraint P < C.
+	 * It constructs constraint P < Q.
 	 * @param p variable p.
-	 * @param c constant c.
+	 * @param q constant q.
 	 */
 	public PltQ(FloatVar p, FloatVar q) {
 		
